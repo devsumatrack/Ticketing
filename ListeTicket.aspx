@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ListeTicket.aspx.cs" Inherits="Ticketing.ListeTicket" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
+     <Link rel = "StyleSheet" href = " Styleclient.css" type = "text/css" />
+
     <p>
         <br />
     </p>
@@ -18,6 +21,17 @@
                 </td>
             </tr>
         </table>
+
+            <!-- left debut -->
+
+      <div class="left">  
+
+         
+
+
+ 
+    </div>
+   <!-- left close -->
 
     </div>
     <br />

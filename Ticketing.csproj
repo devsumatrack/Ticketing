@@ -137,6 +137,7 @@
     <Content Include="ListeTicket.aspx" />
     <Content Include="liste_Materiel.aspx" />
     <Content Include="Loggin.aspx" />
+    <Content Include="Styleclient.css" />
     <Content Include="WebUserControl1.ascx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />

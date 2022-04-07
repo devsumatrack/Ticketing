@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="liste_Materiel.aspx.cs" Inherits="Ticketing.liste_Materiel" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+      <Link rel = "StyleSheet" href = " Styleclient.css" type = "text/css" />
     <p>
         <br />
     </p>
@@ -64,4 +65,15 @@
         </asp:GridView>
 
     </div>
+
+        <!-- left debut -->
+
+      <div class="left">  
+
+         
+
+
+ 
+    </div>
+   <!-- left close -->
 </asp:Content>

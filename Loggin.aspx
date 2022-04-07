@@ -158,7 +158,7 @@ button{
         <tr>
             <td>
                 
-                <img src="Images/logo.png"    />
+               <br /> <br /> <br /> <br />
                
             </td>
         </tr>

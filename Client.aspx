@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Client.aspx.cs" Inherits="Ticketing.Client" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+      <Link rel = "StyleSheet" href = " Styleclient.css" type = "text/css" />
     <p class="text-center">
         &nbsp;</p>
 <p class="text-center" style="font-family: Arial; font-size: x-large">
@@ -20,7 +21,7 @@
                <td style="width: 218px">
                    <asp:TextBox ID="TxtTelephone" runat="server" CssClass="input-sm" style="margin-left: 0" Width="152px"  ></asp:TextBox>
                </td>
-               <td style="width: 38px">Mail</td>
+               <td style="width: 38px">IT</td>
                <td style="width: 167px">
                    <asp:TextBox ID="TxtMail" runat="server"   CssClass="input-sm"  Width="144px" ></asp:TextBox>
                </td>
@@ -43,6 +44,25 @@
            </tr>
        </table>
    </div>
+
+    <!-- left debut -->
+
+      <div class="left">  
+
+         
+
+
+ 
+    </div>
+   <!-- left close -->
+
+
+
+
+
+
+
+
     <table class="nav-justified">
         <tr>
             <td>&nbsp;</td>

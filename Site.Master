@@ -47,26 +47,33 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Gesion Ticket</a>
+                    <a class="navbar-brand" runat="server" href="~/"><img class="logo"  "  src="Images/logo.png"/></a>
                 </div>
                 <div ID="ButtonAcceuil" class="navbar-collapse collapse" runat="server">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Accueil</a></li>
                         <li><a runat="server" href="~/Client">Client</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                         <li><a runat="server" href="~/Salarie">Salarie</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+
+
+         <div class="fullscroll">
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Ticket</p>
+                <p> Creer par Blueline-Business &copy; <%: DateTime.Now.Year %> - Ticket</p>
             </footer>
         </div>
 
     </form>
+
+        </div>
 </body>
 </html>
